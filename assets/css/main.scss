@@ -112,75 +112,85 @@ img.org-logo {
     display: inline-block;
     object-fit: contain;
     vertical-align: middle;
-    margin: 0 0.25em 0 0;
+    margin: 0 0.3em 0 0;
     position: relative;
-    top: -0.06em;
+    top: -0.08em;
     flex-shrink: 0;
 }
 
 img.org-logo[data-org="sjtu"] {
-    height: 1.2em;
-    width: 1.2em;
-}
-
-img.org-logo[data-org="xmu"] {
-    height: 1.15em;
-    width: 1.15em;
-}
-
-img.org-logo[data-org="nio"] {
-    height: 0.95em;
-    width: 2em;
-}
-
-img.org-logo[data-org="ubs"] {
-    height: 0.9em;
-    width: 1.75em;
-}
-
-img.org-logo[data-org="bcg"] {
-    height: 0.95em;
+    height: 1.65em;
     width: 1.65em;
 }
 
+img.org-logo[data-org="xmu"] {
+    height: 1.55em;
+    width: 1.55em;
+}
+
+img.org-logo[data-org="nio"] {
+    height: 1.25em;
+    width: 2.7em;
+}
+
+img.org-logo[data-org="ubs"] {
+    height: 1.2em;
+    width: 2.3em;
+}
+
+img.org-logo[data-org="bcg"] {
+    height: 1.25em;
+    width: 2.2em;
+}
+
 img.org-logo[data-org="tencent"] {
-    height: 1.05em;
-    width: 1.05em;
+    height: 1.4em;
+    width: 1.4em;
 }
 
 img.org-logo[data-org="ebcapital"] {
-    height: 1em;
-    width: 1.85em;
+    height: 1.3em;
+    width: 2.45em;
 }
 
 h2 img.org-logo {
-    top: -0.08em;
-    margin-right: 0.3em;
+    top: -0.1em;
+    margin-right: 0.35em;
 }
 
-h2 img.org-logo[data-org="nio"] {
-    height: 1em;
-    width: 2.1em;
-}
-
-h2 img.org-logo[data-org="ubs"] {
-    height: 0.95em;
-    width: 1.85em;
-}
-
-h2 img.org-logo[data-org="bcg"] {
-    height: 1em;
+h2 img.org-logo[data-org="sjtu"] {
+    height: 1.75em;
     width: 1.75em;
 }
 
+h2 img.org-logo[data-org="xmu"] {
+    height: 1.65em;
+    width: 1.65em;
+}
+
+h2 img.org-logo[data-org="nio"] {
+    height: 1.35em;
+    width: 2.9em;
+}
+
+h2 img.org-logo[data-org="ubs"] {
+    height: 1.3em;
+    width: 2.5em;
+}
+
+h2 img.org-logo[data-org="bcg"] {
+    height: 1.35em;
+    width: 2.35em;
+}
+
 h2 img.org-logo[data-org="ebcapital"] {
-    height: 1.05em;
-    width: 2em;
+    height: 1.4em;
+    width: 2.6em;
 }
 
 h2 img.org-logo[data-org="tencent"] {
-    height: 1.1em;
-    width: 1.1em;
+    height: 1.45em;
+    width: 1.45em;
 }
 
 a.email-protect {
@@ -192,4 +202,45 @@ a.email-protect {
 a.email-protect:hover {
     text-decoration: none;
     opacity: 0.85;
+}
+
+a.email-protect--sidebar {
+    border-bottom: none;
+}
+
+.sidebar .author__urls li {
+    white-space: normal;
+}
+
+.sidebar .author__urls a {
+    white-space: normal;
+    word-break: break-word;
+}
+
+.sidebar .author__urls li.author__description div {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+
+.sidebar .profile_box {
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.sidebar .author__urls-wrapper {
+    @include breakpoint(max-width $large) {
+        width: 100%;
+        margin-top: 0.5em;
+    }
+}
+
+.sidebar .author__content,
+.sidebar .author__urls-wrapper {
+    @include breakpoint(max-width $large) {
+        display: block;
+        width: 100%;
+        padding-left: 0;
+    }
 }

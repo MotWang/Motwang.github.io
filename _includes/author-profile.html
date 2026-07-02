@@ -17,7 +17,7 @@
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
       {% if site.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
+        <li class="author__description"><div>{{ site.description }}</div></li>
       {% endif %}
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
@@ -29,7 +29,7 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
       {% if author.email_user and author.email_domain %}
-        <li><a href="#" class="email-protect" data-u="{{ author.email_user }}" data-d="{{ author.email_domain }}" title="Click to send email"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ author.email_display }}</a></li>
+        <li><a href="#" class="email-protect email-protect--sidebar" data-u="{{ author.email_user }}" data-d="{{ author.email_domain }}" title="Click to send email"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
@@ -124,7 +124,7 @@
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.email_user and author.email_domain %}
-        <a href="#" class="email-protect" data-u="{{ author.email_user }}" data-d="{{ author.email_domain }}" title="Click to send email"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+        <a href="#" class="email-protect email-protect--sidebar" data-u="{{ author.email_user }}" data-d="{{ author.email_domain }}" title="Click to send email"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>
