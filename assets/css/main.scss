@@ -193,19 +193,27 @@ h2 img.org-logo[data-org="tencent"] {
     width: 1.45em;
 }
 
-a.email-protect {
-    cursor: pointer;
-    text-decoration: none;
-    border-bottom: 1px dotted currentColor;
+.sidebar .profile_box {
+    display: block;
+    max-width: 100%;
 }
 
-a.email-protect:hover {
-    text-decoration: none;
-    opacity: 0.85;
+.sidebar .author__avatar,
+.sidebar .author__content,
+.sidebar .author__urls-wrapper {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
 }
 
-a.email-protect--sidebar {
-    border-bottom: none;
+.sidebar .author__description {
+    margin: 0.75em 0 1em;
+    font-size: $type-size-6;
+    line-height: 1.5;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: normal;
 }
 
 .sidebar .author__urls li {
@@ -214,33 +222,4 @@ a.email-protect--sidebar {
 
 .sidebar .author__urls a {
     white-space: normal;
-    word-break: break-word;
-}
-
-.sidebar .author__urls li.author__description div {
-    max-width: 100%;
-    overflow-wrap: anywhere;
-    margin-bottom: 1em;
-    line-height: 1.5;
-}
-
-.sidebar .profile_box {
-    flex-wrap: wrap;
-    max-width: 100%;
-}
-
-.sidebar .author__urls-wrapper {
-    @include breakpoint(max-width $large) {
-        width: 100%;
-        margin-top: 0.5em;
-    }
-}
-
-.sidebar .author__content,
-.sidebar .author__urls-wrapper {
-    @include breakpoint(max-width $large) {
-        display: block;
-        width: 100%;
-        padding-left: 0;
-    }
 }

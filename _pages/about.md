@@ -16,7 +16,7 @@ Before that, I received my Bachelor's degree in Accounting from <img class="org-
 
 Through internships at a USD secondary hedge fund, NIO Capital, Eastern Bell Capital, Tencent, and BCG, I have gained hands-on experience in equity research, due diligence, industry scanning, and strategic consulting across AI software & hardware, semiconductors, and consumer technology.
 
-Please feel free to contact me via {% include email-link.html %}.
+Please feel free to contact me via *Motwang@outlook.com*.
 
 # 🔥 News
 - *2026.03*: &nbsp;🎉 Joined a USD secondary hedge fund as HJ/US ECM Analyst Intern, covering Agentic Commerce and semiconductor equipment.
