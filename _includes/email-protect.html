@@ -1,0 +1,17 @@
+<script>
+(function () {
+  function decodeEmail(el) {
+    var user = el.getAttribute("data-u");
+    var domain = el.getAttribute("data-d");
+    if (!user || !domain) return "";
+    return user + String.fromCharCode(64) + domain;
+  }
+
+  document.addEventListener("click", function (event) {
+    var target = event.target.closest(".email-protect");
+    if (!target) return;
+    event.preventDefault();
+    window.location.href = "mailto:" + decodeEmail(target);
+  });
+})();
+</script>

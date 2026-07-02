@@ -182,3 +182,14 @@ h2 img.org-logo[data-org="tencent"] {
     height: 1.1em;
     width: 1.1em;
 }
+
+a.email-protect {
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+}
+
+a.email-protect:hover {
+    text-decoration: none;
+    opacity: 0.85;
+}

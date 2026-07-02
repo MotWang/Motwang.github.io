@@ -28,8 +28,8 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
-      {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+      {% if author.email_user and author.email_domain %}
+        <li><a href="#" class="email-protect" data-u="{{ author.email_user }}" data-d="{{ author.email_domain }}" title="Click to send email"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ author.email_display }}</a></li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
@@ -123,8 +123,8 @@
       {% if author.uri %}
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
-      {% if author.email %}
-        <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+      {% if author.email_user and author.email_domain %}
+        <a href="#" class="email-protect" data-u="{{ author.email_user }}" data-d="{{ author.email_domain }}" title="Click to send email"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>

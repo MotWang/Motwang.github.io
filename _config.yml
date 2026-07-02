@@ -28,7 +28,9 @@ author:
   employer         :
   pubmed           : 
   googlescholar    :
-  email            : "Motwang@outlook.com"
+  email_user       : "Motwang"
+  email_domain     : "outlook.com"
+  email_display    : "Motwang［at］outlook［dot］com"
   researchgate     :
   uri              :
   bitbucket        :

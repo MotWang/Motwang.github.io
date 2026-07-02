@@ -16,7 +16,7 @@ Before that, I received my Bachelor's degree in Accounting from <img class="org-
 
 Through internships at a USD secondary hedge fund, NIO Capital, Eastern Bell Capital, Tencent, and BCG, I have gained hands-on experience in equity research, due diligence, industry scanning, and strategic consulting across AI software & hardware, semiconductors, and consumer technology.
 
-Please feel free to contact me via *Motwang@outlook.com*.
+Please feel free to contact me via {% include email-link.html %}.
 
 # 🔥 News
 - *2026.03*: &nbsp;🎉 Joined a USD secondary hedge fund as HJ/US ECM Analyst Intern, covering Agentic Commerce and semiconductor equipment.
@@ -81,7 +81,7 @@ Please feel free to contact me via *Motwang@outlook.com*.
 - *2025.01 - Present*, **End-End AI Short-Drama Agent Flow Startup** – Cofounder, Shanghai
 
 # 📄 My Resume
-- [English Resume](../images/CV/Wang_Qifeng_CV.pdf)
+- [English Resume](../images/CV/Wang_Qifeng_CV.pdf) / [中文简历](../images/CV/Wang_Qifeng_CV_CN.pdf)
 
 # 🎖 Honors and Awards
 - *2025*, Outstanding Participant in Postgraduate Recommendation Summer Camp at SJTU (Ranked No.1, awarded RMB 108,000 Scholarship)
