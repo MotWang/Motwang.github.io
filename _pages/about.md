@@ -14,19 +14,19 @@ I am currently a Master's student in Digital Cultural Creation and Management at
 
 Before that, I received my Bachelor's degree in Accounting from <img src="images/logos/xmu_logo.svg" alt="XMU Logo" style="height:1.4em; vertical-align:middle;"> **Xiamen University**, where I built a strong foundation in financial analysis and data-driven decision-making.
 
-Through internships at Shixiang Tech, NIO Capital, Eastern Bell Capital, Tencent, and BCG, I have gained hands-on experience in equity research, due diligence, industry scanning, and strategic consulting across AI software & hardware, semiconductors, and consumer technology.
+Through internships at a USD secondary hedge fund, NIO Capital, Eastern Bell Capital, Tencent, and BCG, I have gained hands-on experience in equity research, due diligence, industry scanning, and strategic consulting across AI software & hardware, semiconductors, and consumer technology.
 
 Please feel free to contact me via *Motwang@outlook.com*.
 
 # 🔥 News
-- *2026.03*: &nbsp;🎉 Joined <img src="images/logos/shixiang_logo.png" alt="Shixiang Tech Logo" style="height:0.9em; vertical-align:middle;"> [Shixiang Tech](https://shixiang.com/) as HJ/US ECM Analyst Intern.
-- *2025.12*: &nbsp;❤️ Started Investment Analyst Intern at <img src="images/logos/niocapital_logo.svg" alt="NIO Capital Logo" style="height:0.9em; vertical-align:middle;"> [NIO Capital](https://niocapital.com/), focusing on multimodal video generation and AI foundation models.
+- *2026.03*: &nbsp;🎉 Joined a USD secondary hedge fund as HJ/US ECM Analyst Intern, covering Agentic Commerce and semiconductor equipment.
+- *2025.12*: &nbsp;❤️ Started Investment Analyst Intern at <img src="images/logos/nio_logo.svg" alt="NIO Logo" style="height:0.9em; vertical-align:middle;"> [NIO Capital](https://niocapital.com/), focusing on multimodal video generation and AI foundation models.
 - *2025.09*: &nbsp;🎓 Enrolled in the Master's program at <img src="images/logos/sjtu_emblem.png" alt="SJTU Logo" style="height:1.2em; vertical-align:middle;"> Shanghai Jiao Tong University.
 - *2025.11*: &nbsp;🏆 Selected for <img src="images/logos/ubs_logo.svg" alt="UBS Logo" style="height:0.8em; vertical-align:middle;"> [UBS 2026 Tomorrow's Talent Program](https://www.ubs.com/) – FinAI Track.
 
 # 💻 Internships
 
-## <img src="images/logos/shixiang_logo.png" alt="Shixiang Tech Logo" style="height:1em; vertical-align:middle;"> Shixiang Tech | SaaS & AI Hardware | HJ/US ECM Analyst Intern
+## A USD Secondary Hedge Fund | SaaS & AI Hardware | HJ/US ECM Analyst Intern
 *Mar 2026 - Present | Shanghai*
 
 - Conducted in-depth research on the impact of Agentic Commerce on traditional e-commerce platforms
@@ -34,7 +34,7 @@ Please feel free to contact me via *Motwang@outlook.com*.
 - Performed bottom-up coverage on Lam Research [LRCX] in the semiconductor front-end equipment sector
   - Synthesized Tegus channel feedbacks across Foundry, memory, and advanced packaging segments to evaluate market opportunities, LRCX's positioning in deposition/etching, and downstream relationships (vs. AMAT and TEL), supporting trade decision-making
 
-## <img src="images/logos/niocapital_logo.svg" alt="NIO Capital Logo" style="height:1em; vertical-align:middle;"> NIO Capital | AI Software & Hardware | Investment Analyst Intern
+## <img src="images/logos/nio_logo.svg" alt="NIO Logo" style="height:1em; vertical-align:middle;"> NIO Capital | AI Software & Hardware | Investment Analyst Intern
 *Dec 2025 - Mar 2026 | Shanghai*
 
 - Conducted industry scanning and due diligence on multimodal video generation Application and Foundation Model
