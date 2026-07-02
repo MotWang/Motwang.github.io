@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Qifeng Wang(王启丰)"
+title                    : "Qifeng Wang(汪琪峰)"
 description              : "Qifeng is a Master's student in Digital Cultural Creation and Management at Shanghai Jiao Tong University. He focuses on AI, SaaS, and investment research across technology and consumer sectors."
 repository               : "MotWang/Motwang.github.io"
 google_scholar_stats_use_cdn : true
@@ -21,8 +21,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Qifeng Wang(王启丰)"
-  avatar           : "images/Wang_Qifeng.jpg"
+  name             : "Qifeng Wang(汪琪峰)"
+  avatar           : "images/Wang_Qifeng.png"
   bio              : "  SJTU | Master "
   location         : "Shanghai, China"
   employer         :
