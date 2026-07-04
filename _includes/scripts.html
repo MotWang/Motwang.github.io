@@ -1,8 +1,8 @@
-<script src="assets/js/main.min.js"></script>
+<script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 
 {% include analytics.html %}
 {% if site.google_scholar_stats_enabled %}
 {% include fetch_google_scholar_stats.html %}
 {% endif %}
-<script src="{{ '/assets/js/research-timeline.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/dialog-timeline.js' | relative_url }}"></script>
+
+<script src="{{ '/assets/js/docs-listing.js' | relative_url }}"></script>

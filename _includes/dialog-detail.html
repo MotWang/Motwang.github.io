@@ -1,9 +1,7 @@
 {% assign sorted = site.dialog | sort: 'date' %}
 {% assign idx = 0 %}
 {% for item in sorted %}
-  {% if item.url == page.url %}
-    {% assign current_index = idx %}
-  {% endif %}
+  {% if item.url == page.url %}{% assign current_index = idx %}{% endif %}
   {% assign idx = idx | plus: 1 %}
 {% endfor %}
 {% assign total = sorted.size %}
@@ -12,64 +10,48 @@
   {% assign prev_item = sorted[prev_idx] %}
 {% endif %}
 {% assign next_idx = current_index | plus: 1 %}
-{% if next_idx < total %}
-  {% assign next_item = sorted[next_idx] %}
-{% endif %}
+{% if next_idx < total %}{% assign next_item = sorted[next_idx] %}{% endif %}
 
-<article class="dialog-detail">
-  <nav class="dialog-detail__breadcrumb" aria-label="Breadcrumb">
-    <a href="{{ '/#dialog' | relative_url }}">← Back to Dialog</a>
-    <span class="dialog-detail__breadcrumb-sep">·</span>
-    <span class="dialog-detail__breadcrumb-current">Dialog</span>
-  </nav>
-
-  <header class="dialog-detail__header">
-    {% if page.topics %}
-    <div class="dialog-detail__topics">
-      {% for topic in page.topics %}
-      <span class="dialog-topic-tag dialog-topic-tag--{{ topic | downcase }}">{{ topic }}</span>
-      {% endfor %}
-    </div>
-    {% endif %}
-
-    <h1 class="dialog-detail__title">{{ page.title }}</h1>
-
-    <p class="dialog-detail__meta">
-      <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time>
-      {% if page.reading_time %} · {{ page.reading_time }}{% endif %}
+<article class="docs-article">
+  <header class="docs-article__header">
+    <h1 class="docs-article__title">{{ page.title }}</h1>
+    <p class="docs-article__meta">
+      <span class="docs-article__meta-item">
+        Posted on <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+      </span>
+      {% if page.reading_time %}
+      <span class="docs-article__meta-sep">|</span>
+      <span class="docs-article__meta-item">{{ page.reading_time }}</span>
+      {% endif %}
+      {% if page.topics %}
+      <span class="docs-article__meta-sep">|</span>
+      <span class="docs-article__meta-item">{{ page.topics | join: " / " }}</span>
+      {% endif %}
     </p>
-
-    {% if page.summary %}
-    <p class="dialog-detail__summary">{{ page.summary }}</p>
-    {% endif %}
   </header>
 
-  <section class="dialog-detail__content">
-    {{ content }}
-  </section>
+  <div class="docs-article__body">
+    {% if page.summary %}
+    <p class="docs-article__lead">{{ page.summary }}</p>
+    {% endif %}
 
-  <nav class="dialog-detail__pager" aria-label="Dialog pagination">
-    <div class="dialog-detail__pager-cell dialog-detail__pager-cell--prev">
+    {{ content }}
+  </div>
+
+  <nav class="docs-article__pager" aria-label="Post pagination">
+    <div class="docs-article__pager-cell docs-article__pager-cell--prev">
       {% if prev_item %}
-      <a href="{{ prev_item.url | relative_url }}" class="dialog-pager-link">
-        <span class="dialog-pager-link__dir">← Previous</span>
-        <span class="dialog-pager-link__title">{{ prev_item.title }}</span>
-      </a>
+      <a href="{{ prev_item.url | relative_url }}">← {{ prev_item.title }}</a>
       {% endif %}
     </div>
-    <div class="dialog-detail__pager-cell dialog-detail__pager-cell--home">
-      <a href="{{ '/#dialog' | relative_url }}" class="dialog-pager-home" aria-label="All dialog">
-        <span aria-hidden="true">◈</span>
-        <span>All Dialog</span>
-      </a>
-    </div>
-    <div class="dialog-detail__pager-cell dialog-detail__pager-cell--next">
+    <div class="docs-article__pager-cell docs-article__pager-cell--next">
       {% if next_item %}
-      <a href="{{ next_item.url | relative_url }}" class="dialog-pager-link dialog-pager-link--next">
-        <span class="dialog-pager-link__dir">Next →</span>
-        <span class="dialog-pager-link__title">{{ next_item.title }}</span>
-      </a>
+      <a href="{{ next_item.url | relative_url }}">{{ next_item.title }} →</a>
       {% endif %}
     </div>
   </nav>
+
+  <p class="docs-article__back">
+    <a href="{{ '/dialog/' | relative_url }}">← All dialog</a>
+  </p>
 </article>

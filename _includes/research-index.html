@@ -1,0 +1,41 @@
+{% assign sorted_research = site.research | sort: 'date' | reverse %}
+{% assign topics_source = site.data.research_topics %}
+
+<div class="docs-listing" id="research-listing">
+  {% if topics_source and topics_source.size > 1 %}
+  <nav class="docs-listing__filters" aria-label="Filter research by topic">
+    {% for topic in topics_source %}
+    <button
+      type="button"
+      class="docs-filter{% if topic.id == 'all' %} is-active{% endif %}"
+      data-topic="{{ topic.id }}"
+      data-scope="research"
+    >{{ topic.label }}</button>
+    {% endfor %}
+  </nav>
+  {% endif %}
+
+  <ul class="docs-list">
+    {% for item in sorted_research %}
+    {% assign topic_str = item.topics | join: ',' %}
+    <li class="docs-list__item" data-topics="{{ topic_str }}">
+      <div class="docs-list__row">
+        <a class="docs-list__title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        <time class="docs-list__date" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%Y.%m" }}</time>
+      </div>
+      {% if item.summary %}
+      <p class="docs-list__summary">{{ item.summary }}</p>
+      {% endif %}
+      <div class="docs-list__meta">
+        {% if item.org %}<span class="docs-list__org">{{ item.org }}</span>{% endif %}
+        {% if item.org and item.topics %}<span class="docs-list__sep">·</span>{% endif %}
+        {% if item.topics %}
+        <span class="docs-list__topics">{{ item.topics | join: " / " }}</span>
+        {% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <p class="docs-list__empty" id="research-empty" hidden>No entries match this topic.</p>
+</div>

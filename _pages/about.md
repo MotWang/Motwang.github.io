@@ -10,8 +10,6 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# 👋 About Me
-
 I am currently a Master's student in Digital Cultural Creation and Management at <img class="org-logo" data-org="sjtu" src="images/logos/sjtu_emblem.png" alt="SJTU Logo"> **Shanghai Jiao Tong University**, with research and professional interests spanning AI applications, SaaS, semiconductors, and investment analysis.
 
 Before that, I received my Bachelor's degree in Accounting from <img class="org-logo" data-org="xmu" src="images/logos/xmu_logo.svg" alt="XMU Logo"> **Xiamen University**, where I built a strong foundation in financial analysis and data-driven decision-making.
@@ -105,22 +103,6 @@ Please feel free to contact me via *Motwang@outlook.com*.
 - 🎸 Guitar (Folk Music Grade 7)
 - ⚽ Football
 - 🏸 Badminton
-
-<span class='anchor' id='my-research'></span>
-
-# 🔬 My Research
-
-Selected industry and equity-research projects on a timeline. **Click a card** to preview, **filter by topic**, or follow **Full Page →** for the complete write-up.
-
-{% include research-timeline.html %}
-
-<span class='anchor' id='dialog'></span>
-
-# 💬 Dialog
-
-Short-form notes, reading digests, and thinking-out-loud posts. Same idea as the research timeline — click any card for the full read.
-
-{% include dialog-timeline.html %}
 
 ---
 

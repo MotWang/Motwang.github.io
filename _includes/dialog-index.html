@@ -1,0 +1,43 @@
+{% assign sorted_dialog = site.dialog | sort: 'date' | reverse %}
+{% assign topics_source = site.data.dialog_topics %}
+
+<div class="docs-listing" id="dialog-listing">
+  {% if topics_source and topics_source.size > 1 %}
+  <nav class="docs-listing__filters" aria-label="Filter dialog by topic">
+    {% for topic in topics_source %}
+    <button
+      type="button"
+      class="docs-filter{% if topic.id == 'all' %} is-active{% endif %}"
+      data-topic="{{ topic.id }}"
+      data-scope="dialog"
+    >{{ topic.label }}</button>
+    {% endfor %}
+  </nav>
+  {% endif %}
+
+  {% if sorted_dialog.size > 0 %}
+  <ul class="docs-list">
+    {% for item in sorted_dialog %}
+    {% assign topic_str = item.topics | join: ',' %}
+    <li class="docs-list__item" data-topics="{{ topic_str }}">
+      <div class="docs-list__row">
+        <a class="docs-list__title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        <time class="docs-list__date" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%Y.%m.%d" }}</time>
+      </div>
+      {% if item.summary %}
+      <p class="docs-list__summary">{{ item.summary }}</p>
+      {% endif %}
+      {% if item.topics %}
+      <div class="docs-list__meta">
+        <span class="docs-list__topics">{{ item.topics | join: " / " }}</span>
+      </div>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="docs-list__placeholder">No entries yet.</p>
+  {% endif %}
+
+  <p class="docs-list__empty" id="dialog-empty" hidden>No entries match this topic.</p>
+</div>

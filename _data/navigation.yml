@@ -1,12 +1,10 @@
-# Main top-nav links.
-# All URLs are hash-anchors on the homepage; the masthead template
-# prefixes them with the site root so they work from any page.
+# Main top-nav links. Each is a real page.
 main:
   - title: "About Me"
-    url: "/#about-me"
+    url: "/"
 
-  - title: "My Research"
-    url: "/#my-research"
+  - title: "Research"
+    url: "/research/"
 
   - title: "Dialog"
-    url: "/#dialog"
+    url: "/dialog/"
