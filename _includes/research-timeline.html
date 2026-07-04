@@ -1,0 +1,79 @@
+{% assign sorted_research = site.research | sort: 'date' | reverse %}
+
+<section id="research-timeline-section" class="research-section">
+  <div class="research-toolbar">
+    <div class="research-toolbar__filters" role="tablist" aria-label="Filter research by topic">
+      {% for topic in site.data.research_topics %}
+      <button
+        type="button"
+        class="research-filter-btn{% if topic.id == 'all' %} is-active{% endif %}"
+        data-topic="{{ topic.id }}"
+        role="tab"
+        aria-selected="{% if topic.id == 'all' %}true{% else %}false{% endif %}"
+      >{{ topic.label }}</button>
+      {% endfor %}
+    </div>
+    <p class="research-toolbar__hint">Click a card to preview · Link opens full research page</p>
+  </div>
+
+  <div class="research-timeline" id="research-timeline">
+    {% for item in sorted_research %}
+    {% assign topic_str = item.topics | join: ',' %}
+    <article
+      class="research-card"
+      data-topics="{{ topic_str }}"
+      data-date="{{ item.date | date: '%Y-%m-%d' }}"
+      data-title="{{ item.title | escape }}"
+      data-org="{{ item.org | escape }}"
+      data-summary="{{ item.summary | escape }}"
+      data-image="{{ item.image | relative_url }}"
+      data-url="{{ item.url | relative_url }}"
+      tabindex="0"
+      role="button"
+      aria-label="Preview {{ item.title }}"
+    >
+      <div class="research-card__date">
+        <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%Y.%m" }}</time>
+      </div>
+      <div class="research-card__body">
+        <div class="research-card__thumb">
+          <img src="{{ item.image | relative_url }}" alt="{{ item.title }}" loading="lazy">
+        </div>
+        <div class="research-card__info">
+          <h3 class="research-card__title">{{ item.title }}</h3>
+          {% if item.org %}<p class="research-card__org">{{ item.org }}</p>{% endif %}
+          <div class="research-card__topics">
+            {% for topic in item.topics %}
+            <span class="research-topic-tag research-topic-tag--sm">{{ topic }}</span>
+            {% endfor %}
+          </div>
+          <p class="research-card__summary">{{ item.summary }}</p>
+          <div class="research-card__actions">
+            <button type="button" class="research-btn research-btn--ghost research-card__preview">Preview</button>
+            <a href="{{ item.url | relative_url }}" class="research-btn research-btn--primary">Full Page →</a>
+          </div>
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+
+  <p class="research-empty" id="research-empty" hidden>No research items match this topic.</p>
+</section>
+
+<div class="research-dialog" id="research-dialog" hidden aria-hidden="true">
+  <div class="research-dialog__backdrop" data-close-dialog></div>
+  <div class="research-dialog__panel" role="dialog" aria-modal="true" aria-labelledby="research-dialog-title">
+    <button type="button" class="research-dialog__close" data-close-dialog aria-label="Close dialog">&times;</button>
+    <div class="research-dialog__image-wrap">
+      <img id="research-dialog-image" src="" alt="">
+    </div>
+    <div class="research-dialog__content">
+      <p class="research-dialog__meta" id="research-dialog-meta"></p>
+      <h2 class="research-dialog__title" id="research-dialog-title"></h2>
+      <div class="research-dialog__topics" id="research-dialog-topics"></div>
+      <p class="research-dialog__summary" id="research-dialog-summary"></p>
+      <a href="#" class="research-btn research-btn--primary research-dialog__link" id="research-dialog-link">Read Full Research →</a>
+    </div>
+  </div>
+</div>

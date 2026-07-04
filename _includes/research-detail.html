@@ -1,0 +1,31 @@
+<article class="research-detail">
+  <p class="research-detail__back"><a href="/#-past-research--dialog">← Back to Research Timeline</a></p>
+
+  {% if page.image %}
+  <div class="research-detail__hero">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+  </div>
+  {% endif %}
+
+  <header class="research-detail__header">
+    <p class="research-detail__meta">
+      <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%Y.%m" }}</time>
+      {% if page.org %} · {{ page.org }}{% endif %}
+    </p>
+    <h1 class="research-detail__title">{{ page.title }}</h1>
+    {% if page.topics %}
+    <div class="research-detail__topics">
+      {% for topic in page.topics %}
+      <span class="research-topic-tag">{{ topic }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if page.summary %}
+    <p class="research-detail__summary">{{ page.summary }}</p>
+    {% endif %}
+  </header>
+
+  <section class="research-detail__content">
+    {{ content }}
+  </section>
+</article>

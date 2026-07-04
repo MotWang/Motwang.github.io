@@ -1,0 +1,12 @@
+- id: all
+  label: "All"
+- id: AI
+  label: "AI"
+- id: Investment
+  label: "Investment"
+- id: Semiconductors
+  label: "Semiconductors"
+- id: Strategy
+  label: "Strategy"
+- id: SaaS
+  label: "SaaS"
