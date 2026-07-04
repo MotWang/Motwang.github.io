@@ -1,24 +1,31 @@
 /* ==========================================================================
-   Docs style — shared visual system for Research + Dialog
-   Reference: tangshusen.me (NexT-style personal blog)
-   Design intent: minimal, monochrome, print-adjacent. Single accent color.
-   No gradients, no card shadows, no hero images, no colored tags.
+   Docs style — shared visual system for Research + Dialog pages.
+   Reference: tangshusen.me (NexT-lineage personal blog).
+   Palette: cool neutral grays + one muted blue accent. No warm tones,
+   no gradients, no shadows, no colored tag pills, no hero images.
    ========================================================================== */
 
 /* --- Tokens ------------------------------------------------------------ */
-$docs-text        : #262626;
-$docs-text-soft   : #555;
-$docs-text-mute   : #999;
-$docs-rule        : #eaecef;
-$docs-rule-soft   : #f0f2f5;
-$docs-bg          : #fff;
-$docs-bg-code     : #f7f8fa;
-$docs-accent      : #3273dc;   /* one calm blue */
-$docs-accent-hover: #2557a1;
+$docs-text        : #333333;   /* primary body text — matches NexT default */
+$docs-text-soft   : #555555;   /* secondary prose */
+$docs-text-mute   : #999999;   /* meta / dates */
+$docs-text-faint  : #bbbbbb;   /* separator glyphs */
+$docs-rule        : #eeeeee;
+$docs-rule-soft   : #f2f2f2;
+$docs-bg          : #ffffff;
+$docs-bg-code     : #f8f8f8;   /* tangshusen code-block background */
+$docs-accent      : #2a7ae2;   /* muted "reference blue" */
+$docs-accent-hover: #1a5fb4;
 $docs-max         : 720px;
 
-$docs-font-sans   : -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
-                    "Microsoft YaHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+/* Type: serif for titles + headings (tangshusen uses a serif article title),
+   sans for body — but keep a good CJK stack ahead of the Western fonts so
+   Chinese characters render cleanly. */
+$docs-font-serif  : "Iowan Old Style", "Source Serif Pro", "Georgia",
+                    "Songti SC", "STSong", "SimSun", "Noto Serif CJK SC", serif;
+$docs-font-sans   : -apple-system, BlinkMacSystemFont, "Segoe UI",
+                    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+                    "Helvetica Neue", Roboto, Arial, sans-serif;
 $docs-font-mono   : "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
 
 /* --- Page wrappers ----------------------------------------------------- */
@@ -32,18 +39,23 @@ $docs-font-mono   : "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monosp
   line-height: 1.75;
 }
 
+/* ==========================================================================
+   Index page (Research / Dialog list)
+   ========================================================================== */
+
 .docs-index__header {
-  padding: 0 0 1.5em;
-  margin: 0 0 2em;
+  padding: 0 0 18px;
+  margin: 0 0 26px;
   border-bottom: 1px solid $docs-rule;
 }
 
 .docs-index__title {
-  margin: 0 0 0.35em;
-  font-size: 1.6em;
+  font-family: $docs-font-serif;
+  margin: 0 0 6px;
+  font-size: 26px;
   font-weight: 600;
   color: $docs-text;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.005em;
   border-bottom: none !important;
   padding-bottom: 0 !important;
 }
@@ -51,20 +63,20 @@ $docs-font-mono   : "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monosp
 .docs-index__intro {
   margin: 0;
   color: $docs-text-soft;
-  font-size: 0.95em;
+  font-size: 14.5px;
   line-height: 1.7;
-  max-width: 60ch;
+  max-width: 62ch;
 }
 
-/* --- Filter chips (index) --------------------------------------------- */
+/* --- Filter row (inline underlined text) ------------------------------ */
 .docs-listing__filters {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4em 1.2em;
-  margin: 0 0 2em;
-  padding: 0 0 1em;
+  gap: 4px 22px;
+  margin: 0 0 22px;
+  padding: 0 0 12px;
   border-bottom: 1px dashed $docs-rule;
-  font-size: 0.9em;
+  font-size: 13.5px;
   color: $docs-text-soft;
 }
 
@@ -86,7 +98,7 @@ $docs-font-mono   : "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monosp
   }
 }
 
-/* --- Index list ------------------------------------------------------- */
+/* --- List rows -------------------------------------------------------- */
 .docs-list {
   list-style: none;
   margin: 0;
@@ -94,7 +106,7 @@ $docs-font-mono   : "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monosp
 }
 
 .docs-list__item {
-  padding: 1.2em 0 1.35em;
+  padding: 20px 0 22px;
   border-bottom: 1px solid $docs-rule-soft;
 
   &:last-child { border-bottom: 0; }
@@ -104,49 +116,48 @@ $docs-font-mono   : "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monosp
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  gap: 1em;
+  gap: 14px;
   flex-wrap: wrap;
 }
 
 .docs-list__title {
-  font-size: 1.08em;
+  font-family: $docs-font-serif;
+  font-size: 18px;
   font-weight: 500;
   color: $docs-text;
   text-decoration: none !important;
   background: none !important;
+  border-bottom: 0 !important;
   transition: color 0.15s ease;
 
   &:hover { color: $docs-accent; }
 }
 
 .docs-list__date {
-  font-size: 0.82em;
+  font-size: 12.5px;
   color: $docs-text-mute;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
   flex-shrink: 0;
+  letter-spacing: 0.01em;
 }
 
 .docs-list__summary {
-  margin: 0.5em 0 0.5em;
+  margin: 6px 0 6px;
   color: $docs-text-soft;
-  font-size: 0.95em;
+  font-size: 14.5px;
   line-height: 1.7;
 }
 
 .docs-list__meta {
-  font-size: 0.82em;
+  font-size: 12.5px;
   color: $docs-text-mute;
   letter-spacing: 0.01em;
 }
 
-.docs-list__sep {
-  margin: 0 0.4em;
-  color: $docs-rule;
-}
-
-.docs-list__topics,
-.docs-list__org { color: $docs-text-mute; }
+.docs-list__sep    { margin: 0 0.5em; color: $docs-text-faint; }
+.docs-list__topics { color: $docs-text-mute; }
+.docs-list__org    { color: $docs-text-mute; }
 
 .docs-list__empty,
 .docs-list__placeholder {
@@ -154,27 +165,27 @@ $docs-font-mono   : "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monosp
   color: $docs-text-mute;
   font-size: 0.95em;
   text-align: center;
-  font-style: normal;
 }
 
 /* ==========================================================================
-   Article (detail page)
+   Detail page (single research / dialog article)
    ========================================================================== */
 
 .docs-article__header {
-  padding: 0 0 1.5em;
-  margin: 0 0 2em;
+  padding: 6px 0 20px;
+  margin-bottom: 26px;
   text-align: center;
   border-bottom: 1px dashed $docs-rule;
 }
 
 .docs-article__title {
-  margin: 0 0 0.75em;
-  font-size: 1.55em;
+  font-family: $docs-font-serif;
+  margin: 0 0 12px;
+  font-size: 26px;
   font-weight: 600;
   line-height: 1.35;
   color: $docs-text;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.005em;
   border-bottom: none !important;
   padding-bottom: 0 !important;
 }
@@ -182,7 +193,7 @@ $docs-font-mono   : "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monosp
 .docs-article__meta {
   margin: 0;
   color: $docs-text-mute;
-  font-size: 0.82em;
+  font-size: 12.5px;
   letter-spacing: 0.02em;
   line-height: 1.6;
 }
@@ -190,59 +201,59 @@ $docs-font-mono   : "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monosp
 .docs-article__meta-item { display: inline-block; }
 
 .docs-article__meta-sep {
-  margin: 0 0.55em;
-  color: $docs-rule;
+  margin: 0 8px;
+  color: $docs-text-faint;
 }
 
 .docs-article__lead {
-  margin: 0 0 1.5em;
-  padding: 0.85em 1em;
+  margin: 0 0 26px;
+  padding: 12px 16px;
   color: $docs-text-soft;
-  font-size: 0.95em;
+  font-size: 14px;
   line-height: 1.75;
   background: $docs-bg-code;
   border-left: 3px solid $docs-accent;
-  border-radius: 2px;
 }
 
-/* Article body typography — override the theme's aggressive underlines
-   inside .page__content and give docs pages a cleaner reading look. */
+/* --- Body typography ------------------------------------------------- */
 .docs-article__body {
   font-size: 15px;
   line-height: 1.8;
+  color: $docs-text;
 
   h2 {
-    margin: 2em 0 0.65em;
+    font-family: $docs-font-serif;
+    margin: 30px 0 8px;
     padding: 0;
-    font-size: 1.2em;
+    font-size: 19px;
     font-weight: 600;
     color: $docs-text;
     border-bottom: none;
   }
 
   h3 {
-    margin: 1.5em 0 0.5em;
-    font-size: 1.05em;
+    margin: 22px 0 6px;
+    font-size: 15.5px;
     font-weight: 600;
     color: $docs-text;
   }
 
   h4 {
-    margin: 1.4em 0 0.4em;
-    font-size: 1em;
+    margin: 20px 0 4px;
+    font-size: 14.5px;
     font-weight: 600;
     color: $docs-text-soft;
   }
 
   p {
-    margin: 0 0 1.15em;
+    margin: 0 0 14px;
     color: $docs-text;
   }
 
   a {
     color: $docs-accent;
     text-decoration: none !important;
-    border-bottom: 1px solid rgba(50, 115, 220, 0.35);
+    border-bottom: 1px solid rgba(42, 122, 226, 0.35);
     transition: border-color 0.15s ease, color 0.15s ease;
 
     &:hover {
@@ -265,7 +276,7 @@ $docs-font-mono   : "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monosp
   em     { font-style: italic; color: $docs-text-soft; }
 
   code {
-    padding: 0.12em 0.35em;
+    padding: 0.12em 0.4em;
     background: $docs-bg-code;
     color: #c7254e;
     border-radius: 2px;
@@ -275,10 +286,10 @@ $docs-font-mono   : "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monosp
   }
 
   pre {
-    padding: 0.9em 1em;
+    padding: 12px 14px;
     background: $docs-bg-code;
-    border-radius: 4px;
     border: 1px solid $docs-rule;
+    border-radius: 3px;
     overflow-x: auto;
     line-height: 1.55;
     font-size: 0.87em;
@@ -294,7 +305,7 @@ $docs-font-mono   : "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monosp
 
   blockquote {
     margin: 1.2em 0;
-    padding: 0.35em 1em;
+    padding: 6px 14px;
     color: $docs-text-soft;
     border-left: 3px solid $docs-rule;
     background: transparent;
@@ -316,7 +327,7 @@ $docs-font-mono   : "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monosp
     font-size: 0.92em;
 
     th, td {
-      padding: 0.55em 0.8em;
+      padding: 7px 10px;
       border: 1px solid $docs-rule;
       text-align: left;
     }
@@ -340,14 +351,15 @@ $docs-font-mono   : "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monosp
 .docs-article__pager {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1em;
-  margin: 3em 0 0.5em;
-  padding-top: 1.25em;
+  gap: 14px;
+  margin: 32px 0 4px;
+  padding-top: 16px;
   border-top: 1px dashed $docs-rule;
-  font-size: 0.9em;
+  font-size: 13px;
+  color: $docs-text-mute;
 
   a {
-    color: $docs-text-soft;
+    color: $docs-text-mute;
     text-decoration: none !important;
     border-bottom: 0 !important;
     transition: color 0.15s ease;
@@ -360,8 +372,8 @@ $docs-font-mono   : "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monosp
 .docs-article__pager-cell--next { text-align: right; }
 
 .docs-article__back {
-  margin: 1.25em 0 0;
-  font-size: 0.88em;
+  margin: 18px 0 0;
+  font-size: 12.5px;
   text-align: center;
   color: $docs-text-mute;
 
@@ -374,38 +386,34 @@ $docs-font-mono   : "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monosp
   }
 }
 
-/* --- Responsive tweaks ------------------------------------------------ */
+/* --- Responsive ------------------------------------------------------ */
 @media (max-width: 640px) {
-  .docs-article__title { font-size: 1.35em; }
+  .docs-article__title,
+  .docs-index__title { font-size: 22px; }
+
+  .docs-list__title  { font-size: 17px; }
 
   .docs-article__pager {
     grid-template-columns: 1fr;
   }
-
   .docs-article__pager-cell--next { text-align: left; }
 
-  .docs-list__row { flex-direction: column; gap: 0.15em; }
-  .docs-list__date { align-self: flex-start; }
+  .docs-list__row      { flex-direction: column; gap: 3px; }
+  .docs-list__date     { align-self: flex-start; }
 }
 
 /* ==========================================================================
-   Global tweaks that unify home / research / dialog under the docs style.
+   Global tweaks (nav + page-shell) that live alongside the docs style.
    ========================================================================== */
 
-/* Keep the theme's h1 underline on the About Me page's section headers
-   (# 🔥 News etc.) — the user asked to preserve the original main-page look.
-   Only strip it inside docs-article/docs-index, which we've already scoped. */
-
-/* Active masthead nav highlight */
+/* Active masthead nav highlight — same muted blue */
 .masthead__menu-item.is-active > a {
   color: $docs-accent;
   font-weight: 600;
 }
 
-/* Body sizing on research / dialog pages: keep the sidebar (author profile)
-   but stop the main column from stretching all the way. .docs-page handles
-   the width; here we just remove page-level padding surprises. */
+/* Let inner .docs-* wrappers control width on research/dialog pages */
 .page.research-page .page__content,
 .page.dialog-page   .page__content {
-  max-width: none; /* let inner .docs-* wrappers control width */
+  max-width: none;
 }
