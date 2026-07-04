@@ -7,7 +7,7 @@ main:
     url: "/#-news"
 
   - title: "Research"
-    url: "/#-past-research--dialog"
+    url: "/#past-research--dialog"
 
   - title: "Internships"
     url: "/#-internships"

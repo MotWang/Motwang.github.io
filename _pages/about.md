@@ -24,6 +24,8 @@ Please feel free to contact me via *Motwang@outlook.com*.
 - *2025.09*: &nbsp;🎓 Enrolled in the Master's program at <img class="org-logo" data-org="sjtu" src="images/logos/sjtu_emblem.png" alt="SJTU Logo"> Shanghai Jiao Tong University.
 - *2025.11*: &nbsp;🏆 Selected for <img class="org-logo" data-org="ubs" src="images/logos/ubs_logo.svg" alt="UBS Logo"> [UBS 2026 Tomorrow's Talent Program](https://www.ubs.com/) – FinAI Track.
 
+<span class='anchor' id='past-research--dialog'></span>
+
 # 🔬 Past Research & Dialog
 
 Browse past research projects on a timeline. **Click a card** to open the preview dialog, **filter by topic**, or follow **Full Page →** for the complete write-up.
