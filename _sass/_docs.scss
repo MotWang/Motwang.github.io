@@ -414,6 +414,37 @@ $docs-font-mono   : "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monosp
 
 /* Let inner .docs-* wrappers control width on research/dialog pages */
 .page.research-page .page__content,
-.page.dialog-page   .page__content {
+.page.dialog-page   .page__content,
+.page__content:has(.docs-page) {
   max-width: none;
+}
+
+/* Neutralize Minimal Mistakes theme rules inside docs regions */
+.page__content {
+  .docs-page,
+  .docs-article {
+    > h1,
+    h1.docs-index__title,
+    h1.docs-article__title {
+      margin-top: 0 !important;
+      padding-bottom: 0 !important;
+      border-bottom: none !important;
+    }
+
+    h2, h3, h4 {
+      border-bottom: none !important;
+    }
+
+    a.docs-list__title,
+    .docs-article__pager a,
+    .docs-article__back a {
+      border-bottom: 0 !important;
+      text-decoration: none !important;
+    }
+  }
+}
+
+/* Index listing pages (Research / Dialog) */
+.page__content .docs-page {
+  padding-top: 4px;
 }
