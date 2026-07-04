@@ -123,6 +123,9 @@ collections:
   research:
     output: true
     permalink: /research/:name/
+  dialog:
+    output: true
+    permalink: /dialog/:name/
 
 # Defaults
 defaults:
@@ -137,6 +140,12 @@ defaults:
       type: research
     values:
       layout: research
+      author_profile: true
+  - scope:
+      path: ""
+      type: dialog
+    values:
+      layout: dialog
       author_profile: true
 
 

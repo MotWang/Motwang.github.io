@@ -1,5 +1,62 @@
+{% assign sorted = site.research | sort: 'date' %}
+{% assign idx = 0 %}
+{% for item in sorted %}
+  {% if item.url == page.url %}
+    {% assign current_index = idx %}
+  {% endif %}
+  {% assign idx = idx | plus: 1 %}
+{% endfor %}
+{% assign total = sorted.size %}
+{% if current_index > 0 %}
+  {% assign prev_idx = current_index | minus: 1 %}
+  {% assign prev_item = sorted[prev_idx] %}
+{% endif %}
+{% assign next_idx = current_index | plus: 1 %}
+{% if next_idx < total %}
+  {% assign next_item = sorted[next_idx] %}
+{% endif %}
+
 <article class="research-detail">
-  <p class="research-detail__back"><a href="/#past-research--dialog">← Back to Research Timeline</a></p>
+  <nav class="research-detail__breadcrumb" aria-label="Breadcrumb">
+    <a href="{{ '/#my-research' | relative_url }}">← Back to Research Timeline</a>
+    <span class="research-detail__breadcrumb-sep">·</span>
+    <span class="research-detail__breadcrumb-current">Research</span>
+  </nav>
+
+  <header class="research-detail__header">
+    {% if page.topics %}
+    <div class="research-detail__topics">
+      {% for topic in page.topics %}
+      <span class="research-topic-tag research-topic-tag--{{ topic | downcase }}">{{ topic }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <h1 class="research-detail__title">{{ page.title }}</h1>
+
+    {% if page.summary %}
+    <p class="research-detail__summary">{{ page.summary }}</p>
+    {% endif %}
+
+    <dl class="research-detail__facts">
+      <div class="research-detail__fact">
+        <dt>Date</dt>
+        <dd><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%b %Y" }}</time></dd>
+      </div>
+      {% if page.org %}
+      <div class="research-detail__fact">
+        <dt>Institution</dt>
+        <dd>{{ page.org }}</dd>
+      </div>
+      {% endif %}
+      {% if page.topics %}
+      <div class="research-detail__fact">
+        <dt>Focus</dt>
+        <dd>{{ page.topics | join: " · " }}</dd>
+      </div>
+      {% endif %}
+    </dl>
+  </header>
 
   {% if page.image %}
   <div class="research-detail__hero">
@@ -7,25 +64,32 @@
   </div>
   {% endif %}
 
-  <header class="research-detail__header">
-    <p class="research-detail__meta">
-      <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%Y.%m" }}</time>
-      {% if page.org %} · {{ page.org }}{% endif %}
-    </p>
-    <h1 class="research-detail__title">{{ page.title }}</h1>
-    {% if page.topics %}
-    <div class="research-detail__topics">
-      {% for topic in page.topics %}
-      <span class="research-topic-tag">{{ topic }}</span>
-      {% endfor %}
-    </div>
-    {% endif %}
-    {% if page.summary %}
-    <p class="research-detail__summary">{{ page.summary }}</p>
-    {% endif %}
-  </header>
-
   <section class="research-detail__content">
     {{ content }}
   </section>
+
+  <nav class="research-detail__pager" aria-label="Research pagination">
+    <div class="research-detail__pager-cell research-detail__pager-cell--prev">
+      {% if prev_item %}
+      <a href="{{ prev_item.url | relative_url }}" class="research-pager-link">
+        <span class="research-pager-link__dir">← Previous</span>
+        <span class="research-pager-link__title">{{ prev_item.title }}</span>
+      </a>
+      {% endif %}
+    </div>
+    <div class="research-detail__pager-cell research-detail__pager-cell--home">
+      <a href="{{ '/#my-research' | relative_url }}" class="research-pager-home" aria-label="All research">
+        <span aria-hidden="true">◈</span>
+        <span>All Research</span>
+      </a>
+    </div>
+    <div class="research-detail__pager-cell research-detail__pager-cell--next">
+      {% if next_item %}
+      <a href="{{ next_item.url | relative_url }}" class="research-pager-link research-pager-link--next">
+        <span class="research-pager-link__dir">Next →</span>
+        <span class="research-pager-link__title">{{ next_item.title }}</span>
+      </a>
+      {% endif %}
+    </div>
+  </nav>
 </article>

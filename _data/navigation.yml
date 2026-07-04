@@ -1,28 +1,12 @@
-# main links links
+# Main top-nav links.
+# All URLs are hash-anchors on the homepage; the masthead template
+# prefixes them with the site root so they work from any page.
 main:
   - title: "About Me"
     url: "/#about-me"
 
-  - title: "News"
-    url: "/#-news"
+  - title: "My Research"
+    url: "/#my-research"
 
-  - title: "Research"
-    url: "/#past-research--dialog"
-
-  - title: "Internships"
-    url: "/#-internships"
-
-  - title: "Educations"
-    url: "/#-educations"
-
-  - title: "Extracurricular"
-    url: "/#-extracurricular-activities"
-
-  - title: "My Resume"
-    url: "/#-my-resume"
-
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
-
-  - title: "Skills & Interests"
-    url: "/#-skills--interests"
+  - title: "Dialog"
+    url: "/#dialog"

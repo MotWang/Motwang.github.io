@@ -1,0 +1,58 @@
+{% assign sorted_dialog = site.dialog | sort: 'date' | reverse %}
+
+<section id="dialog-timeline-section" class="dialog-section">
+  <div class="dialog-toolbar">
+    <div class="dialog-toolbar__filters" role="tablist" aria-label="Filter dialog by topic">
+      {% for topic in site.data.dialog_topics %}
+      <button
+        type="button"
+        class="dialog-filter-btn{% if topic.id == 'all' %} is-active{% endif %}"
+        data-topic="{{ topic.id }}"
+        role="tab"
+        aria-selected="{% if topic.id == 'all' %}true{% else %}false{% endif %}"
+      >{{ topic.label }}</button>
+      {% endfor %}
+    </div>
+    <p class="dialog-toolbar__hint">Short notes and reading digests · Click a card to open the full read</p>
+  </div>
+
+  {% if sorted_dialog.size > 0 %}
+  <div class="dialog-list" id="dialog-list">
+    {% for item in sorted_dialog %}
+    {% assign topic_str = item.topics | join: ',' %}
+    <article
+      class="dialog-card"
+      data-topics="{{ topic_str }}"
+      data-date="{{ item.date | date: '%Y-%m-%d' }}"
+      data-title="{{ item.title | escape }}"
+      data-summary="{{ item.summary | escape }}"
+      data-url="{{ item.url | relative_url }}"
+      tabindex="0"
+      role="link"
+      aria-label="Read {{ item.title }}"
+    >
+      <div class="dialog-card__date">
+        <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%b %-d, %Y" }}</time>
+        {% if item.reading_time %}<span class="dialog-card__dot">·</span><span class="dialog-card__reading">{{ item.reading_time }}</span>{% endif %}
+      </div>
+      <h3 class="dialog-card__title"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+      {% if item.summary %}<p class="dialog-card__summary">{{ item.summary }}</p>{% endif %}
+      <div class="dialog-card__footer">
+        <div class="dialog-card__topics">
+          {% for topic in item.topics %}
+          <span class="dialog-topic-tag dialog-topic-tag--{{ topic | downcase }}">{{ topic }}</span>
+          {% endfor %}
+        </div>
+        <a href="{{ item.url | relative_url }}" class="dialog-card__more">Read →</a>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="dialog-empty-state">
+    <p><strong>No entries yet.</strong> New short-form notes will land here as they get written.</p>
+  </div>
+  {% endif %}
+
+  <p class="dialog-empty" id="dialog-empty" hidden>No entries match this topic.</p>
+</section>

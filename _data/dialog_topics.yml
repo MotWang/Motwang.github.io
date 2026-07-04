@@ -1,0 +1,10 @@
+- id: all
+  label: "All"
+- id: Notes
+  label: "Notes"
+- id: Reading
+  label: "Reading"
+- id: Reflection
+  label: "Reflection"
+- id: Industry
+  label: "Industry"

@@ -44,7 +44,7 @@
           {% if item.org %}<p class="research-card__org">{{ item.org }}</p>{% endif %}
           <div class="research-card__topics">
             {% for topic in item.topics %}
-            <span class="research-topic-tag research-topic-tag--sm">{{ topic }}</span>
+            <span class="research-topic-tag research-topic-tag--sm research-topic-tag--{{ topic | downcase }}">{{ topic }}</span>
             {% endfor %}
           </div>
           <p class="research-card__summary">{{ item.summary }}</p>

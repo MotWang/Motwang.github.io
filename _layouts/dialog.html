@@ -9,18 +9,18 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body class="research-body">
+  <body class="dialog-body">
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
     <div id="main" role="main">
       {% include sidebar.html %}
 
-      <article class="page research-page" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <article class="page dialog-page" itemscope itemtype="http://schema.org/BlogPosting">
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         <div class="page__inner-wrap">
           <section class="page__content" itemprop="text">
-            {% include research-detail.html %}
+            {% include dialog-detail.html %}
           </section>
         </div>
       </article>

@@ -10,6 +10,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# 👋 About Me
+
 I am currently a Master's student in Digital Cultural Creation and Management at <img class="org-logo" data-org="sjtu" src="images/logos/sjtu_emblem.png" alt="SJTU Logo"> **Shanghai Jiao Tong University**, with research and professional interests spanning AI applications, SaaS, semiconductors, and investment analysis.
 
 Before that, I received my Bachelor's degree in Accounting from <img class="org-logo" data-org="xmu" src="images/logos/xmu_logo.svg" alt="XMU Logo"> **Xiamen University**, where I built a strong foundation in financial analysis and data-driven decision-making.
@@ -23,14 +25,6 @@ Please feel free to contact me via *Motwang@outlook.com*.
 - *2025.12*: &nbsp;❤️ Started Investment Analyst Intern at <img class="org-logo" data-org="nio" src="images/logos/nio_logo.svg" alt="NIO Logo"> [NIO Capital](https://niocapital.com/), focusing on multimodal video generation and AI foundation models.
 - *2025.09*: &nbsp;🎓 Enrolled in the Master's program at <img class="org-logo" data-org="sjtu" src="images/logos/sjtu_emblem.png" alt="SJTU Logo"> Shanghai Jiao Tong University.
 - *2025.11*: &nbsp;🏆 Selected for <img class="org-logo" data-org="ubs" src="images/logos/ubs_logo.svg" alt="UBS Logo"> [UBS 2026 Tomorrow's Talent Program](https://www.ubs.com/) – FinAI Track.
-
-<span class='anchor' id='past-research--dialog'></span>
-
-# 🔬 Past Research & Dialog
-
-Browse past research projects on a timeline. **Click a card** to open the preview dialog, **filter by topic**, or follow **Full Page →** for the complete write-up.
-
-{% include research-timeline.html %}
 
 # 💻 Internships
 
@@ -112,8 +106,24 @@ Browse past research projects on a timeline. **Click a card** to open the previe
 - ⚽ Football
 - 🏸 Badminton
 
+<span class='anchor' id='my-research'></span>
+
+# 🔬 My Research
+
+Selected industry and equity-research projects on a timeline. **Click a card** to preview, **filter by topic**, or follow **Full Page →** for the complete write-up.
+
+{% include research-timeline.html %}
+
+<span class='anchor' id='dialog'></span>
+
+# 💬 Dialog
+
+Short-form notes, reading digests, and thinking-out-loud posts. Same idea as the research timeline — click any card for the full read.
+
+{% include dialog-timeline.html %}
+
 ---
 
 <p style="text-align: center; color: #888; font-size: 0.9em; margin-top: 2em;">
-Last Updated: July 2, 2026
+Last Updated: July 5, 2026
 </p>

@@ -56,7 +56,7 @@
     dialogTopics.innerHTML = "";
     topics.forEach(function (topic) {
       var tag = document.createElement("span");
-      tag.className = "research-topic-tag";
+      tag.className = "research-topic-tag research-topic-tag--" + topic.toLowerCase();
       tag.textContent = topic;
       dialogTopics.appendChild(tag);
     });
