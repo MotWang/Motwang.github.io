@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Qifeng Wang(汪琪峰)"
-  avatar           : "images/Wang_Qifeng.png"
+  avatar           : "/images/Wang_Qifeng.png"
   bio              : "  SJTU | Master "
   location         : "Shanghai, China"
   employer         :
