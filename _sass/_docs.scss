@@ -448,19 +448,3 @@ $docs-font-mono   : "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monosp
 .page__content .docs-page {
   padding-top: 4px;
 }
-
-/* Sidebar avatar — fix broken relative paths & keep a tidy circle */
-.research-body .sidebar .author__avatar,
-.dialog-body .sidebar .author__avatar,
-body:has(.docs-page) .sidebar .author__avatar {
-  text-align: center;
-
-  img {
-    display: block;
-    width: auto;
-    max-width: 130px;
-    height: auto;
-    margin: 0 auto;
-    border-radius: 50%;
-  }
-}

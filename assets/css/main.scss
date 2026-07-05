@@ -158,13 +158,33 @@ h2 img.org-logo[data-org="tencent"]   { height: 1.45em; width: 1.45em; }
     max-width: 100%;
 }
 
-.sidebar .author__avatar,
+/* Container only — do NOT target img (theme gives img the same class name) */
+.sidebar .profile_box > .author__avatar {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
 .sidebar .author__content,
 .sidebar .author__urls-wrapper {
     display: block;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+}
+
+.sidebar .author__avatar img {
+    display: block;
+    width: auto !important;
+    max-width: 130px;
+    min-width: 0;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid $border-color;
 }
 
 .sidebar .author__description {
