@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-{% include base_path %}
+<span class='anchor' id='about-me'></span>
 
-I am currently a Master's student in Digital Cultural Creation and Management at **Shanghai Jiao Tong University**, with research and professional interests spanning AI infrastructure, semiconductors, AI applications, and investment analysis.
+I am currently a Master's student in Digital Cultural Creation and Management at <img class="org-logo" data-org="sjtu" src="images/logos/sjtu_emblem.png" alt="SJTU Logo"> **Shanghai Jiao Tong University**, with research and professional interests spanning AI infrastructure, semiconductors, AI applications, and investment analysis.
 
-Before that, I received my Bachelor's degree in Accounting from **Xiamen University**, where I built a strong foundation in financial analysis and data-driven decision-making.
+Before that, I received my Bachelor's degree in Accounting from <img class="org-logo" data-org="xmu" src="images/logos/xmu_logo.svg" alt="XMU Logo"> **Xiamen University**, where I built a strong foundation in financial analysis and data-driven decision-making.
 
 Through internships at Samsung Ventures, NIO Capital, Eastern Bell Capital, Tencent, and BCG, I have gained hands-on experience in due diligence, industry scanning, equity research, and strategic consulting across AI software & hardware, semiconductors, and consumer technology.
 
@@ -83,11 +83,11 @@ Please feel free to contact me via *moriatywang@sjtu.edu.cn* or *Motwang@outlook
   - Built an agentic workflow using LangChain to extract and classify investment logic from research documents, translate it into executable strategy code, and automate backtesting; selected as a finalist to meet with a global panel of UBS professionals
 
 # 📖 Educations
-- *2025.09 - 2028.03*, **Master of Digital Cultural Creation and Management**, Shanghai Jiao Tong University, Shanghai. GPA: 3.80/4.0 (Top 5%)
-- *2021.09 - 2025.06*, **Bachelor of Accounting**, Xiamen University, Xiamen. GPA: 3.63/4.0 (Top 3%)
+- *2025.09 - 2028.03*, <img class="org-logo" data-org="sjtu" src="images/logos/sjtu_emblem.png" alt="SJTU Logo"> **Master of Digital Cultural Creation and Management**, Shanghai Jiao Tong University, Shanghai. GPA: 3.80/4.0 (Top 5%)
+- *2021.09 - 2025.06*, <img class="org-logo" data-org="xmu" src="images/logos/xmu_logo.svg" alt="XMU Logo"> **Bachelor of Accounting**, Xiamen University, Xiamen. GPA: 3.63/4.0 (Top 3%)
 
 # 🌟 Extracurricular Activities
-- *2025.11 - 2026.01*, [UBS 2026 Tomorrow's Talent Program](https://www.ubs.com/) – FinAI Track, Shanghai (Finalist)
+- *2025.11 - 2026.01*, <img class="org-logo" data-org="ubs" src="images/logos/ubs_logo.svg" alt="UBS Logo"> [UBS 2026 Tomorrow's Talent Program](https://www.ubs.com/) – FinAI Track, Shanghai (Finalist)
 - *2025.01 - Present*, **End-End AI Short-Drama Agent Flow Startup** – Cofounder, Shanghai
 
 # 📄 My Resume
@@ -116,6 +116,6 @@ Please feel free to contact me via *moriatywang@sjtu.edu.cn* or *Motwang@outlook
 
 ---
 
-<div align="center">
-<small>Last Updated: October 1, 2026</small>
-</div>
+<p style="text-align: center; color: #888; font-size: 0.9em; margin-top: 2em;">
+Last Updated: October 1, 2026
+</p>
