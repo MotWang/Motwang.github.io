@@ -14,20 +14,20 @@ I am currently a Master's student in Digital Cultural Creation and Management at
 
 Before that, I received my Bachelor's degree in Accounting from <img class="org-logo" data-org="xmu" src="images/logos/xmu_logo.svg" alt="XMU Logo"> **Xiamen University**, where I built a strong foundation in financial analysis and data-driven decision-making.
 
-Through internships at Samsung Ventures, NIO Capital, Eastern Bell Capital, Tencent, and BCG, I have gained hands-on experience in due diligence, industry scanning, equity research, and strategic consulting across AI software & hardware, semiconductors, and consumer technology.
+Through internships at <img class="org-logo" data-org="samsung" src="images/logos/samsung_logo.svg" alt="Samsung Logo"> Samsung Ventures, <img class="org-logo" data-org="nio" src="images/logos/nio_logo.svg" alt="NIO Logo"> NIO Capital, <img class="org-logo" data-org="ebcapital" src="images/logos/ebcapital_logo.png" alt="Eastern Bell Capital Logo"> Eastern Bell Capital, <img class="org-logo" data-org="tencent" src="images/tencent_logo.png" alt="Tencent Logo"> Tencent, and <img class="org-logo" data-org="bcg" src="images/logos/bcg_logo.svg" alt="BCG Logo"> BCG, I have gained hands-on experience in due diligence, industry scanning, equity research, and strategic consulting across AI software & hardware, semiconductors, and consumer technology.
 
 Please feel free to contact me via *moriatywang@sjtu.edu.cn* or *Motwang@outlook.com*.
 
 # 🔥 News
-- *2026.08*: &nbsp;🎉 Joined [Samsung Ventures](https://www.samsung.com/) as Investment Analyst Intern, covering AI infrastructure, semiconductors, and AI-enabled investment tools.
+- *2026.08*: &nbsp;🎉 Joined <img class="org-logo" data-org="samsung" src="images/logos/samsung_logo.svg" alt="Samsung Logo"> [Samsung Ventures](https://www.samsung.com/) as Investment Analyst Intern, covering AI infrastructure, semiconductors, and AI-enabled investment tools.
 - *2026.02*: &nbsp;📈 Started U.S. semiconductor public equity research covering Lam Research [LRCX] and Marvell Technology [MRVL].
-- *2025.12*: &nbsp;❤️ Started Investment Analyst Intern at [NIO Capital](https://niocapital.com/), focusing on multimodal video generation and AI foundation models.
-- *2025.11*: &nbsp;🏆 Selected as a finalist for [UBS 2026 Tomorrow's Talent Program](https://www.ubs.com/) – FinAI Track.
-- *2025.09*: &nbsp;🎓 Enrolled in the Master's program at Shanghai Jiao Tong University.
+- *2025.12*: &nbsp;❤️ Started Investment Analyst Intern at <img class="org-logo" data-org="nio" src="images/logos/nio_logo.svg" alt="NIO Logo"> [NIO Capital](https://niocapital.com/), focusing on multimodal video generation and AI foundation models.
+- *2025.11*: &nbsp;🏆 Selected as a finalist for <img class="org-logo" data-org="ubs" src="images/logos/ubs_logo.svg" alt="UBS Logo"> [UBS 2026 Tomorrow's Talent Program](https://www.ubs.com/) – FinAI Track.
+- *2025.09*: &nbsp;🎓 Enrolled in the Master's program at <img class="org-logo" data-org="sjtu" src="images/logos/sjtu_emblem.png" alt="SJTU Logo"> Shanghai Jiao Tong University.
 
 # 💻 Internships
 
-## Samsung Ventures | AI Infrastructure & Semiconductors | Investment Analyst Intern
+## <img class="org-logo" data-org="samsung" src="images/logos/samsung_logo.svg" alt="Samsung Logo"> Samsung Ventures | AI Infrastructure & Semiconductors | Investment Analyst Intern
 *Aug 2026 - Present | Shanghai*
 
 - Supported Samsung’s global team in evaluating investment opportunities across SEA and Greater China’s AI value chain
@@ -37,7 +37,7 @@ Please feel free to contact me via *moriatywang@sjtu.edu.cn* or *Motwang@outlook
 - Conducted supporting research on AI-agent business models and inference economics
   - Used VitaBench to benchmark leading foundation models across travel booking, food delivery and complex Q&A tasks; compared token consumption and cache-hit rates to assess how evolving token economics could reshape the AI hardware and software value chain
 
-## NIO Capital | AI Software & Hardware | Investment Analyst Intern
+## <img class="org-logo" data-org="nio" src="images/logos/nio_logo.svg" alt="NIO Logo"> NIO Capital | AI Software & Hardware | Investment Analyst Intern
 *Dec 2025 - Mar 2026 | Shanghai*
 
 - Conducted industry research and due diligence on multimodal video generation Application and Foundation Model
@@ -45,14 +45,14 @@ Please feel free to contact me via *moriatywang@sjtu.edu.cn* or *Motwang@outlook
 - Performed frontier research on Neo Lab through arXiv, LinkedIn, and corporate disclosures
   - Evaluated multimodal model capabilities, product roadmaps, and early-stage investment opportunities; sourced China-based Neo Lab targets and drafted the investment report for a leading computer-vision research lab spin-out multimodal AI startup
 
-## Eastern Bell Capital | AI Infrastructure & Semiconductors | Investment Analyst Intern
+## <img class="org-logo" data-org="ebcapital" src="images/logos/ebcapital_logo.png" alt="Eastern Bell Capital Logo"> Eastern Bell Capital | AI Infrastructure & Semiconductors | Investment Analyst Intern
 *Jul 2025 - Dec 2025 | Shanghai*
 
 - Conducted due diligence for two Chinese AIDC liquid cooling providers
   - Conducted market research on the liquid cooling industry for High-Performance AIDC servers, covering global and domestic market sizing, multi-tier industrial chain dynamics, and critical delivery and deployment logistics
   - Analyzed industry KSFs, including cost leadership, core supplier relationships, and overseas expansion capabilities, to form conclusive judgments on future technological and supply chain trends, with valuation using comparable P/E multiples and exit IRR
 
-## Tencent | Cloud Strategic Management Center | Business Analysis Intern
+## <img class="org-logo" data-org="tencent" src="images/tencent_logo.png" alt="Tencent Logo"> Tencent | Cloud Strategic Management Center | Business Analysis Intern
 *Sep 2024 - Jun 2025 | Shenzhen*
 
 - Participated in China’s endpoint security market research in the AI era, assisting in organization adjustments
@@ -60,7 +60,7 @@ Please feel free to contact me via *moriatywang@sjtu.edu.cn* or *Motwang@outlook
 - Participated in AI Agent research initiative, supporting decision-making for new market opportunities
   - Compared industry/functional distributions of Salesforce and Chinese ToB AI Agent use cases since 2025 via pivot tables; identified specialized domestic scenarios and market opportunities for AI model providers and cloud vendors
 
-## Boston Consulting Group | Consulting Project Assistant
+## <img class="org-logo" data-org="bcg" src="images/logos/bcg_logo.svg" alt="BCG Logo"> Boston Consulting Group | Consulting Project Assistant
 *Dec 2023 - Aug 2024 | Shanghai*
 
 - Participated in a growth engagement project for an optical glass company, evaluating the AR/VR optical waveguide industry
@@ -76,7 +76,7 @@ Please feel free to contact me via *moriatywang@sjtu.edu.cn* or *Motwang@outlook
 - Conducted investment research on Marvell Technology [MRVL], focusing on AI compute and connectivity
   - Developed distinct investment theses for custom ASICs, scale-up interconnect and scale-out networking by assessing hyperscaler design wins, product roadmaps, competitive positioning, revenue-contribution timing and valuation implications
 
-## UBS 2026 Tomorrow’s Talent Program | Leader - FinAI Track
+## <img class="org-logo" data-org="ubs" src="images/logos/ubs_logo.svg" alt="UBS Logo"> UBS 2026 Tomorrow’s Talent Program | Leader - FinAI Track
 *Nov 2025 - Jan 2026 | Shanghai*
 
 - Led the core development of an AI-powered document-to-code platform for quantitative strategy research and backtesting
