@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" role="img" aria-label="Xiaohongshu">
-  <rect width="40" height="40" rx="8" fill="#FF2442"/>
-  <text x="20" y="26" text-anchor="middle" fill="#FFFFFF" font-family="PingFang SC, Hiragino Sans GB, Arial, sans-serif" font-size="18" font-weight="700">¢</text>
+  <rect width="40" height="40" rx="9" fill="#FF2442"/>
+  <rect x="10" y="8" width="20" height="24" rx="3" fill="#FFFFFF"/>
+  <rect x="13" y="8" width="3" height="24" fill="#FF2442" opacity="0.18"/>
+  <path d="M18 14h8M18 18h8M18 22h6" stroke="#FF2442" stroke-width="1.8" stroke-linecap="round"/>
 </svg>
