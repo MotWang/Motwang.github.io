@@ -14,13 +14,13 @@ I am currently a Master's student in Digital Cultural Creation and Management at
 
 Before that, I received my Bachelor's degree in Accounting from <img class="org-logo" data-org="xmu" src="images/logos/xmu_logo.svg" alt="XMU Logo"> **Xiamen University**, where I built a strong foundation in financial analysis and data-driven decision-making.
 
-Through internships at <img class="org-logo" data-org="samsung" src="images/logos/samsung_logo.svg" alt="Samsung Logo"> Samsung Ventures, <img class="org-logo" data-org="xhs" src="images/logos/xiaohongshu_logo.svg" alt="Xiaohongshu Logo"> Xiaohongshu, <img class="org-logo" data-org="nio" src="images/logos/nio_logo.svg" alt="NIO Logo"> NIO Capital, <img class="org-logo" data-org="ebcapital" src="images/logos/ebcapital_logo.png" alt="Eastern Bell Capital Logo"> Eastern Bell Capital, <img class="org-logo" data-org="tencent" src="images/tencent_logo.png" alt="Tencent Logo"> Tencent, and <img class="org-logo" data-org="bcg" src="images/logos/bcg_logo.svg" alt="BCG Logo"> BCG, I have gained hands-on experience in due diligence, industry scanning, AI strategy, and strategic consulting across AI software & hardware, semiconductors, and consumer technology.
+Through internships at <img class="org-logo" data-org="samsung" src="images/logos/samsung_logo.svg" alt="Samsung Logo"> Samsung Ventures, <img class="org-logo" data-org="xhs" src="images/logos/xiaohongshu_logo.png" alt="Xiaohongshu Logo"> Xiaohongshu, <img class="org-logo" data-org="nio" src="images/logos/nio_logo.svg" alt="NIO Logo"> NIO Capital, <img class="org-logo" data-org="ebcapital" src="images/logos/ebcapital_logo.png" alt="Eastern Bell Capital Logo"> Eastern Bell Capital, <img class="org-logo" data-org="tencent" src="images/tencent_logo.png" alt="Tencent Logo"> Tencent, and <img class="org-logo" data-org="bcg" src="images/logos/bcg_logo.svg" alt="BCG Logo"> BCG, I have gained hands-on experience in due diligence, industry scanning, AI strategy, and strategic consulting across AI software & hardware, semiconductors, and consumer technology.
 
 Please feel free to contact me via *moriatywang@sjtu.edu.cn* or *Motwang@outlook.com*.
 
 # 🔥 News
 - *2026.08*: &nbsp;🎉 Joined <img class="org-logo" data-org="samsung" src="images/logos/samsung_logo.svg" alt="Samsung Logo"> [Samsung Ventures](https://www.samsung.com/) as Investment Analyst Intern, covering AI infrastructure, semiconductors, and AI-enabled investment tools.
-- *2026.06*: &nbsp;📕 Joined <img class="org-logo" data-org="xhs" src="images/logos/xiaohongshu_logo.svg" alt="Xiaohongshu Logo"> [Xiaohongshu](https://www.xiaohongshu.com/) as Tech Strategy AI Intern; completed the internship in August 2026.
+- *2026.06*: &nbsp;📕 Joined <img class="org-logo" data-org="xhs" src="images/logos/xiaohongshu_logo.png" alt="Xiaohongshu Logo"> [Xiaohongshu](https://www.xiaohongshu.com/) as Tech Strategy AI Intern; completed the internship in August 2026.
 - *2026.02*: &nbsp;📈 Started U.S. semiconductor public equity research covering Lam Research [LRCX] and Marvell Technology [MRVL].
 - *2025.12*: &nbsp;❤️ Started Investment Analyst Intern at <img class="org-logo" data-org="nio" src="images/logos/nio_logo.svg" alt="NIO Logo"> [NIO Capital](https://niocapital.com/), focusing on multimodal video generation and AI foundation models.
 - *2025.11*: &nbsp;🏆 Selected as a finalist for <img class="org-logo" data-org="ubs" src="images/logos/ubs_logo.svg" alt="UBS Logo"> [UBS 2026 Tomorrow's Talent Program](https://www.ubs.com/) – FinAI Track.
@@ -33,7 +33,7 @@ Please feel free to contact me via *moriatywang@sjtu.edu.cn* or *Motwang@outlook
 
 - Supported Samsung’s global team on AI infrastructure and semiconductor investment research across SEA and Greater China, and built AI-enabled research tools for recurring briefing and due-diligence workflows.
 
-## <img class="org-logo" data-org="xhs" src="images/logos/xiaohongshu_logo.svg" alt="Xiaohongshu Logo"> Xiaohongshu | Tech Strategy | AI Intern
+## <img class="org-logo" data-org="xhs" src="images/logos/xiaohongshu_logo.png" alt="Xiaohongshu Logo"> Xiaohongshu | Tech Strategy | AI Intern
 *Jun 2026 - Aug 2026 | Shanghai*
 
 - Supported Xiaohongshu’s Tech Strategy team on AI strategy research, including evaluation of AI applications and their implications for product and technology decisions.
