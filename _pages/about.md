@@ -24,6 +24,7 @@ Please feel free to contact me via *moriatywang@sjtu.edu.cn* or *Motwang@outlook
 - *2026.02*: &nbsp;📈 Started U.S. semiconductor public equity research covering Lam Research [LRCX] and Marvell Technology [MRVL].
 - *2025.12*: &nbsp;❤️ Started Investment Analyst Intern at <img class="org-logo" data-org="nio" src="images/logos/nio_logo.svg" alt="NIO Logo"> [NIO Capital](https://niocapital.com/), focusing on multimodal video generation and AI foundation models.
 - *2025.11*: &nbsp;🏆 Selected as a finalist for <img class="org-logo" data-org="ubs" src="images/logos/ubs_logo.svg" alt="UBS Logo"> [UBS 2026 Tomorrow's Talent Program](https://www.ubs.com/) – FinAI Track.
+- *2025.11*: &nbsp;🤝 Joined <img class="org-logo" data-org="sjtu" src="images/logos/sjtu_emblem.png" alt="SJTU Logo"> [SJTU Innovation and Entrepreneurship Association](https://www.si.sjtu.edu.cn/) as External Relations Officer.
 - *2025.09*: &nbsp;🎓 Enrolled in the Master's program at <img class="org-logo" data-org="sjtu" src="images/logos/sjtu_emblem.png" alt="SJTU Logo"> Shanghai Jiao Tong University.
 
 # 💻 Internships
@@ -79,6 +80,7 @@ Please feel free to contact me via *moriatywang@sjtu.edu.cn* or *Motwang@outlook
 - *2021.09 - 2025.06*, <img class="org-logo" data-org="xmu" src="images/logos/xmu_logo.svg" alt="XMU Logo"> **Bachelor of Accounting**, Xiamen University, Xiamen. GPA: 3.63/4.0 (Top 3%)
 
 # 🌟 Extracurricular Activities
+- *2025.11 - 2026.01*, <img class="org-logo" data-org="sjtu" src="images/logos/sjtu_emblem.png" alt="SJTU Logo"> [SJTU Innovation and Entrepreneurship Association](https://www.si.sjtu.edu.cn/) – External Relations Officer, Shanghai. Coordinated student startups with investors, industry, and government partners, and organized 6 investor–founder meetings.
 - *2025.11 - 2026.01*, <img class="org-logo" data-org="ubs" src="images/logos/ubs_logo.svg" alt="UBS Logo"> [UBS 2026 Tomorrow's Talent Program](https://www.ubs.com/) – FinAI Track, Shanghai (Finalist)
 - *2025.01 - Present*, **End-End AI Short-Drama Agent Flow Startup** – Cofounder, Shanghai
 
