@@ -14,12 +14,13 @@ I am currently a Master's student in Digital Cultural Creation and Management at
 
 Before that, I received my Bachelor's degree in Accounting from <img class="org-logo" data-org="xmu" src="images/logos/xmu_logo.svg" alt="XMU Logo"> **Xiamen University**, where I built a strong foundation in financial analysis and data-driven decision-making.
 
-Through internships at <img class="org-logo" data-org="samsung" src="images/logos/samsung_logo.svg" alt="Samsung Logo"> Samsung Ventures, <img class="org-logo" data-org="nio" src="images/logos/nio_logo.svg" alt="NIO Logo"> NIO Capital, <img class="org-logo" data-org="ebcapital" src="images/logos/ebcapital_logo.png" alt="Eastern Bell Capital Logo"> Eastern Bell Capital, <img class="org-logo" data-org="tencent" src="images/tencent_logo.png" alt="Tencent Logo"> Tencent, and <img class="org-logo" data-org="bcg" src="images/logos/bcg_logo.svg" alt="BCG Logo"> BCG, I have gained hands-on experience in due diligence, industry scanning, equity research, and strategic consulting across AI software & hardware, semiconductors, and consumer technology.
+Through internships at <img class="org-logo" data-org="samsung" src="images/logos/samsung_logo.svg" alt="Samsung Logo"> Samsung Ventures, <img class="org-logo" data-org="xhs" src="images/logos/xiaohongshu_logo.svg" alt="Xiaohongshu Logo"> Xiaohongshu, <img class="org-logo" data-org="nio" src="images/logos/nio_logo.svg" alt="NIO Logo"> NIO Capital, <img class="org-logo" data-org="ebcapital" src="images/logos/ebcapital_logo.png" alt="Eastern Bell Capital Logo"> Eastern Bell Capital, <img class="org-logo" data-org="tencent" src="images/tencent_logo.png" alt="Tencent Logo"> Tencent, and <img class="org-logo" data-org="bcg" src="images/logos/bcg_logo.svg" alt="BCG Logo"> BCG, I have gained hands-on experience in due diligence, industry scanning, AI strategy, and strategic consulting across AI software & hardware, semiconductors, and consumer technology.
 
 Please feel free to contact me via *moriatywang@sjtu.edu.cn* or *Motwang@outlook.com*.
 
 # 🔥 News
 - *2026.08*: &nbsp;🎉 Joined <img class="org-logo" data-org="samsung" src="images/logos/samsung_logo.svg" alt="Samsung Logo"> [Samsung Ventures](https://www.samsung.com/) as Investment Analyst Intern, covering AI infrastructure, semiconductors, and AI-enabled investment tools.
+- *2026.06*: &nbsp;📕 Joined <img class="org-logo" data-org="xhs" src="images/logos/xiaohongshu_logo.svg" alt="Xiaohongshu Logo"> [Xiaohongshu](https://www.xiaohongshu.com/) as Tech Strategy AI Intern; completed the internship in August 2026.
 - *2026.02*: &nbsp;📈 Started U.S. semiconductor public equity research covering Lam Research [LRCX] and Marvell Technology [MRVL].
 - *2025.12*: &nbsp;❤️ Started Investment Analyst Intern at <img class="org-logo" data-org="nio" src="images/logos/nio_logo.svg" alt="NIO Logo"> [NIO Capital](https://niocapital.com/), focusing on multimodal video generation and AI foundation models.
 - *2025.11*: &nbsp;🏆 Selected as a finalist for <img class="org-logo" data-org="ubs" src="images/logos/ubs_logo.svg" alt="UBS Logo"> [UBS 2026 Tomorrow's Talent Program](https://www.ubs.com/) – FinAI Track.
@@ -30,41 +31,32 @@ Please feel free to contact me via *moriatywang@sjtu.edu.cn* or *Motwang@outlook
 ## <img class="org-logo" data-org="samsung" src="images/logos/samsung_logo.svg" alt="Samsung Logo"> Samsung Ventures | AI Infrastructure & Semiconductors | Investment Analyst Intern
 *Aug 2026 - Present | Shanghai*
 
-- Supported Samsung’s global team in evaluating investment opportunities across SEA and Greater China’s AI value chain
-  - Sourced investment opportunities covering advanced packaging technologies (TPV, hybrid bonding), AIDC infrastructure (SST, liquid cooling), and embodied AI; contributed to the due diligence and IC memo for a leading AIDC SST company
-- Supported AI transformation initiatives for Samsung Ventures by developing and deploying AI-enabled investment tools
-  - Built a weekly news-analysis and briefing workflow and a business-plan language converter, and contributed to daily TMT and semiconductor distro analysis; presented the tools to global colleagues and supported their adoption in recurring research processes
-- Conducted supporting research on AI-agent business models and inference economics
-  - Used VitaBench to benchmark leading foundation models across travel booking, food delivery and complex Q&A tasks; compared token consumption and cache-hit rates to assess how evolving token economics could reshape the AI hardware and software value chain
+- Supported Samsung’s global team on AI infrastructure and semiconductor investment research across SEA and Greater China, and built AI-enabled research tools for recurring briefing and due-diligence workflows.
 
-## <img class="org-logo" data-org="nio" src="images/logos/nio_logo.svg" alt="NIO Logo"> NIO Capital | AI Software & Hardware | Investment Analyst Intern
+## <img class="org-logo" data-org="xhs" src="images/logos/xiaohongshu_logo.svg" alt="Xiaohongshu Logo"> Xiaohongshu | Tech Strategy | AI Intern
+*Jun 2026 - Aug 2026 | Shanghai*
+
+- Supported Xiaohongshu’s Tech Strategy team on AI strategy research, including evaluation of AI applications and their implications for product and technology decisions.
+
+## <img class="org-logo" data-org="nio" src="images/logos/nio_logo.svg" alt="NIO Logo"> NIO Capital | AI Software & Foundation Models | Investment Analyst Intern
 *Dec 2025 - Mar 2026 | Shanghai*
 
-- Conducted industry research and due diligence on multimodal video generation Application and Foundation Model
-  - Mapped key market participants and compared technology roadmaps; contributed to the investment thesis, business-model assessment, financial analysis and sector evaluation of the investment memo for a leading Chinese AI company
-- Performed frontier research on Neo Lab through arXiv, LinkedIn, and corporate disclosures
-  - Evaluated multimodal model capabilities, product roadmaps, and early-stage investment opportunities; sourced China-based Neo Lab targets and drafted the investment report for a leading computer-vision research lab spin-out multimodal AI startup
+- Conducted industry scanning and due diligence on multimodal video generation and Neo Lab / foundation-model opportunities, contributing to investment memos and target sourcing.
 
 ## <img class="org-logo" data-org="ebcapital" src="images/logos/ebcapital_logo.png" alt="Eastern Bell Capital Logo"> Eastern Bell Capital | AI Infrastructure & Semiconductors | Investment Analyst Intern
 *Jul 2025 - Dec 2025 | Shanghai*
 
-- Conducted due diligence for two Chinese AIDC liquid cooling providers
-  - Conducted market research on the liquid cooling industry for High-Performance AIDC servers, covering global and domestic market sizing, multi-tier industrial chain dynamics, and critical delivery and deployment logistics
-  - Analyzed industry KSFs, including cost leadership, core supplier relationships, and overseas expansion capabilities, to form conclusive judgments on future technological and supply chain trends, with valuation using comparable P/E multiples and exit IRR
+- Completed due diligence on Chinese AIDC liquid-cooling providers, covering market sizing, industry KSFs, and valuation analysis.
 
-## <img class="org-logo" data-org="tencent" src="images/tencent_logo.png" alt="Tencent Logo"> Tencent | Cloud Strategic Management Center | Business Analysis Intern
-*Sep 2024 - Jun 2025 | Shenzhen*
+## <img class="org-logo" data-org="tencent" src="images/tencent_logo.png" alt="Tencent Logo"> Tencent | Cloud Strategic Management Center | Strategy Analyst Intern
+*Sep 2024 - Aug 2025 | Shenzhen*
 
-- Participated in China’s endpoint security market research in the AI era, assisting in organization adjustments
-  - Analyzed China’s ToC endpoint-security market in the AI era, benchmarking global markets across mobile and PC; assessed emerging risks from AI-native platforms and growth opportunities in AI-enabled security and security for AI for Tencent BP
-- Participated in AI Agent research initiative, supporting decision-making for new market opportunities
-  - Compared industry/functional distributions of Salesforce and Chinese ToB AI Agent use cases since 2025 via pivot tables; identified specialized domestic scenarios and market opportunities for AI model providers and cloud vendors
+- Supported Tencent Cloud strategy work on AI-era endpoint security and ToB AI Agent opportunities, informing organization and product-direction decisions.
 
 ## <img class="org-logo" data-org="bcg" src="images/logos/bcg_logo.svg" alt="BCG Logo"> Boston Consulting Group | Consulting Project Assistant
 *Dec 2023 - Aug 2024 | Shanghai*
 
-- Participated in a growth engagement project for an optical glass company, evaluating the AR/VR optical waveguide industry
-  - Mapped strategic adjustments of metaverse AR/VR players, evaluated AI impact on AR/VR markets, and analyzed upstream suppliers and mainstream technical routes of optical waveguide for the client’s entry decision
+- Supported growth-strategy projects on AR/VR optical waveguides and NEV drive motors, focusing on competitive landscape, technology routes, and market-entry implications.
 
 # 📊 Selected Investment Research & Leadership
 
@@ -117,5 +109,5 @@ Please feel free to contact me via *moriatywang@sjtu.edu.cn* or *Motwang@outlook
 ---
 
 <p style="text-align: center; color: #888; font-size: 0.9em; margin-top: 2em;">
-Last Updated: October 1, 2026
+Last Updated: October 31, 2026
 </p>
